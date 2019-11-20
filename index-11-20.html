@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index-11-14.css">
+
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark" position:> -->
+  <!-- <nav class="navbar sticky-top navbar-dark bg-dark">
+    
+    <a class="navbar-brand" href="#"><img src="images/csueb-logo.png" width="162px" alt="">GANAS Program Application</a>
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark"
+  style="padding-top: 0; padding-bottom: 0; background: black;">
+  <div class="container">
+      <a id="imgWeb" class="navbar-brand" href="#"><img src="images/csueb-logo.png" alt="" width="191px" height="40"></a>
+      <a id="imgMobile" class="navbar-brand" href="#"><img src="images/csueb-logo-mobile.png" alt="" width="145px" height="40"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a id="GanasProgApp" class="nav-link" href="#">GANAS Program Application <span
+                          class="sr-only">(current)</span></a>
+              </li>
+
+          </ul>
+          <a id="GanasLink" href="http://www.csueastbay.edu/ganas/" target="_blank">GANAS</a>
+      </div>
+  </div>
+</nav>
+
+      <div class="jumbotron well well-sm text-center">
+
+    <h1 class="display-4">GANAS Program Application</h1>
+    <p class="lead">Gaining Access 'N Academic Success</p>
+    <hr class="my-4">
+    <p>Fall Semester Transfers</p>
+  </div>
+
+
+  <div class="container">
+
+  <div class="alert alert-warning" role="alert">
+    Before beginning your application please read through the entire application thoroughly so you will understand what
+    information and documents are required to complete the application.
+    <strong>You will not be able to save a partially filled form to complete at a later date.</strong>
+  </div>
+
+  <h2><a id="applicant-info"> Applicant Information<br></a></h2>
+
+  <div class="form-group">
+    <b><label for="NetIDForm">NetID</label></b>
+    <span class="badge badge-danger">Required</span>
+    <input type="NetID" class="form-control" id="NetIDForm" placeholder="NetID">
+  </div><br>
+
+
+  <div class="form-group">
+    <b> <label for="nameform">First Name</label> </b>
+    <span class="badge badge-danger">Required</span>
+    <input type="first-name" class="form-control" id="nameform" placeholder="John">
+  </div><br>
+
+
+  <div class="form-group">
+    <b> <label for="lastnameform">Last Name</label></b>
+    <span class="badge badge-danger">Required</span>
+    <input type="last-name" class="form-control" id="lastnameform" placeholder="Doe">
+  </div><br>
+
+
+  <div class="form-group">
+    <b><label for="email-form">Student email</label></b>
+    <span class="badge badge-danger">Required</span>
+    <input type="email" class="form-control" id="email-form" placeholder="jdoe@horizon.csueastbay.edu">
+  </div><br>
+
+
+  <div class="form-group">
+    <b><label for="Preferred">Preferred email</label> </b>
+    <span class="badge badge-danger">Required</span>
+    <input type="preferred-email" class="form-control" id="Preferred" placeholder="jdoe@horizon@gmail.com">
+  </div><br>
+
+
+
+  <div class="form-group">
+    <b> <label for="phone-number">Phone</label> </b>
+    <span class="badge badge-danger">Required</span>
+    <input type="phone" class="form-control" id="phone-number" placeholder="5105551234">
+  </div><br>
+
+  <!-- address -->
+  <div class="form-group">
+    <b> <label for="home-address">Address</label></b>
+    <span class="badge badge-danger">Required</span>
+    <input type="address" class="form-control" id="home-address" placeholder="Street">
+  </div><br>
+
+  <form>
+
+    <div class="form-group">
+      <b><label for="apt">Address 2</label><br></b>
+      <input type="text" class="form-control" id="apt" placeholder="Apartment, studio, or floor">
+    </div><br>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <b><label for="inputCity">City</label><br></b>
+        <input type="text" class="form-control" id="inputCity">
+      </div><br>
+      <div class="form-group col-md-4">
+        <b><label for="inputState">State</label><br></b>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>Alabama</option>
+          <option>Alaska</option>
+          <option>American Samoa</option>
+          <option>Arizona</option>
+          <option>Arkansas</option>
+          <option>California</option>
+          <option>Colorado</option>
+          <option>Connecticut</option>
+          <option>Delaware</option>
+          <option>Distric of Columbia</option>
+          <option>Florida</option>
+          <option>Georgia</option>
+          <option>Guam</option>
+          <option>Hawaii</option>
+          <option>Idaho</option>
+          <option>Illinois</option>
+          <option>Indiana</option>
+          <option>Iowa</option>
+          <option>Kansas</option>
+          <option>Kentucky</option>
+          <option>Lousiana</option>
+          <option>Maine</option>
+          <option>Maryland</option>
+
+        </select>
+      </div><br>
+      <div class="form-group col-md-2">
+        <b> <label for="inputZip">Zip</label><br></b>
+        <input type="text" class="form-control" id="inputZip">
+      </div><br>
+    </div>
+  </form>
+
+
+  <!-- preferred pronouns -->
+  <div class="form-group">
+    <b> <label for="exampleFormControlSelect1">What are your preferred pronouns?</label></b>
+    <span class="badge badge-danger">Required</span><br>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Select Pronouns</option>
+      <option>He, Him, His</option>
+      <option>She, Her, Hers</option>
+      <option>They, Them, Theirs</option>
+      <option>Decline to state</option>
+    </select>
+
+  </div><br>
+
+  <!-- ethnicity -->
+  <div class="form-group">
+    <b> <label for="inputEthnicity">Ethnicity</label></b>
+    <span class="badge badge-danger">Required</span><br>
+    <input type="ethnicity" class="form-control" id="inputEthnicity" placeholder="Start typing an ethnic group...">
+    <medium id="ethnicity" class="form-text text-muted"><em>For multiple <b>ethnicities,</b> separate additional entries
+        with a <b>semicolon </b>(;)</em></medium>
+  </div><br>
+
+
+  <div class="form-group">
+    <b> <label for="inputlanguage">Languages spoken at home</label></b>
+    <span class="badge badge-danger">Required</span><br>
+    <input type="language" class="form-control" id="inputlanguage" placeholder="Start typing a language...">
+    <medium id="language" class="form-text text-muted"><em>For multiple <b>languages,</b> separate additional entries
+        with a <b>semicolon </b>(;)</em></medium>
+  </div>
+  <hr>
+  <!-- end of application information -->
+
+  <!-- start of academic information -->
+
+  <h2>Academic Information</h2><br>
+
+
+    <div class="form-group">
+      <b> <label for="inputmajor">Major</label></b>
+      <span class="badge badge-danger">Required</span><br>
+      <input type="major" class="form-control" id="inputmajor" placeholder="Start typing a major...">
+      <medium id="major" class="form-text text-muted"><em>For multiple <b>majors,</b> separate additional entries with a
+          <b>semicolon </b>(;)</em></medium>
+    </div><br>
+
+    <div class="form-group">
+      <b> <label for="inputminor">Minor</label></b>
+      <input type="minor" class="form-control" id="inputminor" placeholder="Start typing a minor...">
+      <medium id="minor" class="form-text text-muted"><em>For multiple <b>minors,</b> separate additional entries with a
+          <b>semicolon </b>(;)</em></medium>
+    </div><br>
+
+    <div class="form-group">
+      <b> <label for="inputgoals">Career goals</label></b>
+      <span class="badge badge-danger">Required</span>
+      <medium id="goals" class="form-text text-muted"><em>(Give a short one-sentence answer)</em></medium>
+      <input type="major" class="form-control" id="inputgoals"
+        placeholder="My long-run objective is to achieve a senior managerial position in a large multinational corporation that markets, or preferably manufactures, commodities.">
+    </div><br>
+
+    <div class="form-group">
+      <b> <label for="inputGPA">GPA</label></b>
+      <span class="badge badge-danger">Required</span>
+      <input type="GPA" class="form-control" id="inputGPA" placeholder="x.xx">
+    </div><br>
+
+    <div class="form-group">
+      <b> <label for="input-transfer-school">Community College graduated/transfering from</label></b>
+      <span class="badge badge-danger">Required</span>
+      <input type="transfer" class="form-control" id="input-transfer-school" placeholder="Community college name">
+    </div><br>
+
+
+    <div class="form-group">
+      <b> <label for="inputminor">Minor</label></b>
+      <input type="minor" class="form-control" id="inputminor" placeholder="Start typing a minor...">
+      <medium id="minor" class="form-text text-muted"><em>For multiple <b>minors,</b> separate additional entries with a
+          <b>semicolon </b>(;)</em></medium>
+    </div><br>
+
+<!-- this is where uou f up -->
+    <div class="form-group">
+      <div>
+          <b><label for="input-transfer-school">Have you ever participated in the Puente Program at your community
+            college?
+          </label></b><span class="badge badge-danger">Required</span>
+      </div>
+      <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio">
+          <label class="form-check-label">Yes</label>
+      </div>
+      <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio">
+          <label class="form-check-label">No</label>
+      </div>
+    </div>
+    
+    <div class="form-group">
+        <b><label for="puente-counselor">Puente Counselor</label></b>
+        <a id="puente-counselor"> <b>Puente Counselor</b></a>
+
+        <span class="badge badge-danger">Required</span>
+        <medium id="puente-counselor" class="form-text text-muted"><em> (enter 'N/A' if not applicable)</em></medium>
+        <input type="counselor" class="form-control" id="puente-counselor"
+          placeholder="Puente counselor OR enter 'N/A'">
+    </div><br>
+
+
+
+      <div class="form-group">
+        <b> <label for="puente-counselor">Puente School</label></b>
+        <span class="badge badge-danger">Required</span>
+        <medium id="puente-school" class="form-text text-muted"><em>(enter 'N/A' if not applicable)</em></medium>
+        <input type="school" class="form-control" id="puente-school" placeholder="Puente school OR enter 'N/A'">
+      </div><br>
+
+
+      <div class="form-group">
+        <div>
+          <b><label for="attended-csueb">Have you previously attended Cal State East Bay?</label></b>
+          <span class="badge badge-danger">Required</span>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="optradio">
+            <label class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="optradio">
+            <label class="form-check-label">No</label>
+        </div>
+      </div>
+
+        <div class="form-group">
+          <b> <label for="exampleFormControlSelect1">Indicate last term attended at Cal State East Bay</label></b>
+          <span class="badge badge-danger">Required</span><br>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Select Term</option>
+            <option>N/A</option>
+            <option>Fall</option>
+            <option>Winter</option>
+            <option>Spring</option>
+            <option>Summer</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <b> <label for="colleges-attended">Colleges and Universities attended</label></b>
+          <span class="badge badge-danger">Required</span><br>
+          <input type="colleges" class="form-control" id="colleges-attended" placeholder="College and University names">
+          <medium id="colleges" class="form-text text-muted"><em>For multiple <b>colleges and univerities,</b> separate
+              additional entries with a <b>semicolon </b>(;)</em></medium>
+        </div>
+
+
+        <div class="form-group">
+          <div>
+            <b><label for="attended-csueb">Do either of your parents have a college degree from a four-year
+              university?</label></b>
+            <span class="badge badge-danger">Required</span>
+          </div>
+          <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio">
+              <label class="form-check-label">Yes</label>
+          </div>
+          <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio">
+              <label class="form-check-label">No</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <b> <label for="attended-csueb">Do you feel you may need resources based on your immigrant status?</label></b>
+          <span class="badge badge-danger">Required</span>
+          <medium id="puente-counselor" class="form-text text-muted"><em>(Scholarships for Undocumented Students, Peer
+              Support, Community Referrals)</em></medium>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio">Yes
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio">No
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio">Decline to state
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <div>
+              <b><label for="attended-csueb">Will you be working while attending school?</label></b>
+              <span class="badge badge-danger">Required</span>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Yes </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">No
+              </label>
+            </div>
+        </div>
+
+            <div class="form-group">
+              <b> <label for="term">Weekly hours worked</label></b>
+              <span class="badge badge-danger">Required</span><br>
+              <select class="form-control" id="term">
+                <option>Select schedule</option>
+                <option>N/A</option>
+                <option>1 - 5</option>
+                <option>6 - 10</option>
+                <option>11 - 15</option>
+                <option>16 - 20</option>
+                <option>21 - 25</option>
+                <option>26 - 30</option>
+                <option>31 - 35</option>
+                <option>36 - 40</option>
+                <option>40+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div>
+                <b><label for="FAFSA">Have you completed and submitted the Free Application for Federal Student Aid (FAFSA)
+                  or California Dream Act Application for the upcoming Academic Year?</label></b>
+                <span class="badge badge-danger">Required</span>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Yes
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">No
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Will not submit either application
+                </label>
+              </div>
+          </div>
+            <hr>
+            <!-- end of Academic Information -->
+
+            <!-- start of Essay Questions & Recommender Information -->
+
+            <h2>Essay Questions & Recommender Information</h2><br>
+            <h4> Essay Questions</h4><br>
+            <p><b>Instructions:</b> Using Microsoft Word, respond to the following two questions. Your answer should be
+              approxicately 300 words each. There are no right or wrong answers. Please be honest and speak form your
+              heart.</p>
+            <ul>
+              <li><b>What challenges have you faced and how have you overcome them? </b></li>
+              <li><b>How can the GANAS Program help you achieve success as you transition to Cal State East Bay?</b>
+              </li>
+            </ul>
+            <!-- essay -->
+            <p><b>Essay</b> <span class="badge badge-danger">Required</span></p>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1"
+                placeholder="Please use approximately 300 words for each question." rows="10"></textarea>
+            </div>
+
+
+
+          </div>
+            <!-- word count -->
+
+
+
+
+
+
+
+            <div>
+              <span class="" </div> <hr>
+
+
+
+              </div>
+
+
+
+
+
+                <script src="JS/jquery.slim.min.js"></script>
+                <!-- <script src="js/popper.min.js"></script> -->
+                <script src="JS/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!-- command forward slash for comments -->
